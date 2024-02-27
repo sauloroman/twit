@@ -1,0 +1,94 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #15202B; 
+    
+    /*Centrar a su hijo*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+
+}
+
+.twitt {
+    width: 650px;
+    height: 400px;
+    padding: 20px;
+}
+
+.yo {
+    width: 50%;
+}
+.caja-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 80%;
+    border:1px solid #fff;
+    border-radius: 30px;
+
+}
+
+.caja1{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.caja-principal {
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja-texto {
+    flex-basis: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nombre {
+    color: #fff;
+    font-weight: bold;
+}
+
+.nombre2 {
+    color: #6E7886;
+}
+
+.info {
+    color: #fff;
+
+}
+
+.info-link {
+    color: #1da1f2;
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icono{
+    display:flex;
+    gap: 10px;
+    color: #6E7886;
+    font-weight: bold;
+
+
+}
